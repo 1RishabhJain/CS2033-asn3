@@ -1,0 +1,188 @@
+.wrapper {
+	width: 1200px;
+	margin: auto;
+}
+
+.ib {
+	display: inline-block;
+	margin: 1px;
+}
+
+.i1 {
+	width: 1195px;
+}
+
+.i2 {
+	width: 595px;
+}
+
+.i3 {
+	width: 395px
+}
+
+.i4 {
+	width: 295px;
+}
+
+.ib {
+	min-height: 50px;
+	overflow: hidden;
+	padding: 0;
+	vertical-align: top;
+}
+
+li {
+	text-align: center;
+	line-height: 50px;
+	font-size: 20px;
+	transition: background-color 1s;
+}
+
+li:hover {
+	background-color: lightgray;
+}
+
+a:link {
+	color: black;
+}
+
+a:visited {
+	color: dimgray;
+}
+
+a:hover {
+	color: lightgray;
+}
+
+a:active {
+	color: slategray;
+}
+
+h1 {
+	font-size: 35px;
+	text-align: center;
+	font-family: "American Typewriter";
+	color: black;
+	padding-bottom: 40px;
+}
+
+h2 {
+	font-size: 30px;
+	text-align: center;
+	font-family: "Courier";
+	padding-bottom: 10px;
+}
+
+p {
+	padding-top: 10px;
+	font-size: 22px;
+	text-align: justify;
+	color: dimgray;
+	font-family: "Montserrat";
+}
+
+body {
+	margin: 0px;
+	background-image: url("../images/background.png");
+	background-repeat: repeat;
+}
+
+section {
+	padding: 0;
+	margin-top: 20px;
+	overflow: hidden;
+}
+
+.productDesc {
+	margin-left: 100px;
+}
+
+.arrow {
+	position: fixed;
+	right: 30px;
+	bottom: 30px;
+}
+
+.banner {
+	margin-top: 80px;
+	margin-bottom: 20px;
+}
+
+.contactPic {
+	margin-left: 90px;
+	margin-top: 90px;
+}
+
+.position {
+	text-align: center;
+	margin: 0px;
+	font-size: 20px;
+}
+
+.biography {
+	text-align: justify;
+	margin: 10px;
+	font-size: 14px;
+}
+
+ul {
+	margin: 0;
+	padding: 0;
+}
+
+.image {
+	text-align: center;
+}
+
+.textbox {
+	border: solid 2px;
+	display: block;
+	font-size: 18px;
+	margin: 1px;
+	padding: 2px;
+	background-color: whitesmoke;
+}
+
+.hide {
+	display: none;
+}
+
+.show {
+	display: block;
+}
+
+.parallax-img {
+	width: 100%;
+	height: 400px;
+	margin-top: 50px;
+	margin-bottom: 50px;
+	background-image: url("../images/parallaxDesk.jpeg");
+	background-size: cover;
+	position: 100px;
+	background-attachment: fixed;
+}
+
+#slideIn {
+	transition: all 2.5s;
+	display: block;
+	margin: auto;
+	margin-top: 150px;
+	margin-bottom: 200px;
+}
+
+form {
+	padding: 60px;
+}
+
+#area {
+	margin-top: 50px;
+	margin-bottom: 50px;
+}
+
+label {
+	font-size: 20px;
+}
+
+input[type=text] {
+	border: solid 2px;
+}
